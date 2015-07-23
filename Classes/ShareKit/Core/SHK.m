@@ -801,13 +801,14 @@ NSString* SHKLocalizedStringFormat(NSString* key)
 
 NSString* SHKLocalizedString(NSString* key, ...) 
 {
-	// Localize the format
-	NSString *localizedStringFormat = SHKLocalizedStringFormat(key);
-	
-	va_list args;
+    // Localize the format
+    // Was:
+    // NSString *localizedStringFormat = NSLocalizedString(key, key);
+    NSString *localizedStringFormat = NSLocalizedStringFromTable(key, @"ShareKit", key);
+    
+    va_list args;
     va_start(args, key);
-    NSString *string = [[NSString alloc] initWithFormat:localizedStringFormat arguments:args];
+    NSString *string = [[NSString alloc] initWithFormat:localizedStringFormat arguments:args] ;
     va_end(args);
-	
-	return string;
-}
+    
+    return string;}
