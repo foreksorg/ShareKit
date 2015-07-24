@@ -17,7 +17,7 @@
 "Edit"                                                                                 = "Düzenle";
 "Actions"                                                                              = "Aksiyonlar";
 "Services"                                                                             = "Servisler";
-"Send to %@"                                                                           = "%@'a gönderildi";
+"Send to %@"                                                                           = "%@'a gönder";
 "Copy"                                                                                 = "Kopyala";
 "Copied!"                                                                              = "Kopyalandı!";
 "Saving to %@"                                                                         = "%@'a kaydediliyor";
@@ -30,7 +30,6 @@
 "Connecting..."                                                                        = "Bağlanıyor...";
 "Shortening URL..."                                                                    = "URL Kısaltılıyor...";
 "Shorten URL Error"                                                                    = "URL Kısaltma Hatası";
-
 "We could not shorten the URL."                                                        = "URL'yi kısaltamadık.";
 "Create a free account at %@"                                                          = "%@ üzerinden ücretsiz yeni hesap oluştur";
 "Create an account at %@"                                                              = "üzerinden yeni hesap oluştur";
@@ -48,7 +47,7 @@
 "Open in Safari"                                                                       = "Safaride aç";
 "Attached: %@"                                                                         = "Eklendi: %@";
 "You must be online to login to %@"                                                    = "%@ ile login olmak için online olmalısınız";
-"Auto Share"                                                                           = "Otomatik paylaş";
+"Auto Share"                                                                           = "Otomatik Paylaş";
 "Enable auto share to skip this step in the future."                                   = "Bu adımı atlamak için otomatik paylaşımı aktif edin";
 "You must be online in order to share with %@"                                         = "%@ Paylaşımı için online olmalısnız. ";
 "Could not authenticate you. Please relogin."                                          = "Doğrulama yapılamadı. Lütfen tekrar giriş yapın";
@@ -56,7 +55,7 @@
 "Request Error"                                                                        = "İstek Hatası";
 "There was an error while sharing"                                                     = "Paylaşım yapılırken bir hata oluştu";
 "Authorize Error"                                                                      = "Doğrulama Hatası";
-"There was an error while authorizing"                                                 = "Doğrulama yapılırken hata oluştu;
+"There was an error while authorizing"                                                 = "Doğrulama yapılırken hata oluştu";
 "Authenticating..."                                                                    = "Doğrulanıyor...";
 "There was a problem requesting access from %@"                                        = "Erişim izni isterken %@ tarafında bir hata oluştu";
 "Access Error"                                                                         = "Erişim Hatası";
@@ -95,13 +94,11 @@
 "Select Group"                                                                         = "Grup Seç";
 "Flickr Groups"                                                                        = "Flickr Grupları";
 "Accounts"                                                                             = "Hesaplar";
-
 "Publish type"                                                                         = "Yayın tipi ";
 "Publish now"                                                                          = "Yayınla";
 "Draft"                                                                                = "Taslak";
 "Add to queue"                                                                         = "Kuyruğa ekle";
 "Publish"                                                                              = "Yayınla";
-
 "SMS"                                                                                  = "SMS";
 "Delicious"                                                                            = "Delicious";
 "Diigo"                                                                                = "Diigo";
@@ -125,7 +122,6 @@
 "Instagram"                                                                            = "Instagram";
 "YouTube"                                                                              = "YouTube";
 "Dropbox"                                                                              = "Dropbox";
-
 "Path"                                                                                 = "Yol";
 "You are over Dropbox storage quota"                                                   = "Dropbox depo kotasının dışındasınız.";
 "File name is wrong"                                                                   = "Dosya adı yanlış";
