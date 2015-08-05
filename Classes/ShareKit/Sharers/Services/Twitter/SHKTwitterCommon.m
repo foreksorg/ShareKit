@@ -207,7 +207,7 @@ NSString * const SHKTwitterAPIMediaUploadURL = @"https://upload.twitter.com/1.1/
 		}
 	}
 	
-	NSError *error = [NSError errorWithDomain:@"Twitter" code:2 userInfo:[NSDictionary dictionaryWithObject:twitterError[@"message"] forKey:NSLocalizedDescriptionKey]];
+	NSError *error = [NSError errorWithDomain:@"Twitter" code:2 userInfo:[NSDictionary dictionaryWithObject:SHKLocalizedString(twitterError[@"message"]) forKey:NSLocalizedDescriptionKey]];
 	[sharer sendDidFailWithError:error];
 }
 
